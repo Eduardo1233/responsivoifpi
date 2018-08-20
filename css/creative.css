@@ -51,7 +51,7 @@ h6 {
 }
 
 section {
-  padding: 8rem 0;
+  padding: 5rem 0;
 }
 
 .section-heading {
@@ -184,10 +184,11 @@ header.masthead hr {
 
 header.masthead h1 {
   font-size: 2rem;
+  text-shadow: 3px 2px 3px green;
 }
 
 header.masthead p {
-  font-weight: 300;
+  font-weight: 700;
 }
 
 @media (min-width: 768px) {
@@ -199,7 +200,7 @@ header.masthead p {
 @media (min-width: 992px) {
   header.masthead {
     height: 100vh;
-    min-height: 650px;
+    min-height: 400px;
     padding-top: 0;
     padding-bottom: 0;
   }
@@ -232,9 +233,9 @@ header.masthead p {
   width: 100%;
   height: 100%;
   text-align: center;
-  opacity: 0;
+  opacity: 0.9;
   color: #fff;
-  background: rgba(240, 95, 64, 0.9);
+  background: #212529;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
@@ -320,3 +321,13 @@ h1.preto{
   color: #fff;
   background: #000;
 }
+
+
+.card{
+  margin-top: 20px;
+}
+
+.box-curso{
+  margin-bottom: 10px;
+}
+
